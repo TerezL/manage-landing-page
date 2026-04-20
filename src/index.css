@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-scroll {
+  animation: scroll 40s linear infinite;
+  will-change: transform;
+}
+
+.marquee:hover .animate-scroll {
+  animation-play-state: paused;
+}
+
+body {
+  font-family: "Be Vietnam Pro", sans-serif;
+  background: url("/public/assets/bg-tablet-pattern.svg") no-repeat right -25rem top -25rem;
+  overflow-x: hidden;
+}
+
+.pattern{
+  position: relative;
+}
+.pattern::after{
+          content: url("/public/assets/bg-tablet-pattern.svg");
+        z-index: -1;
+        overflow: hidden;
+        display: block;
+        position: absolute;
+        top: -40rem;
+        right: -40rem;
+    }
+
+
+@media screen and (min-width: 48rem){
+  body {
+    background: url("/public/assets/bg-tablet-pattern.svg") no-repeat right -10% top -12rem;
+ 
+  }
+.pattern{
+  position: relative;
+}
+.pattern::after{
+          content: url("/public/assets/bg-tablet-pattern.svg");
+        z-index: -1;
+        overflow: hidden;
+        display: block;
+        position: absolute;
+        top: 10rem;
+        left: -40rem;
+    }
+
+}
+  

@@ -5,25 +5,25 @@ const testimonials = [
     id: 1,
     name: "Anisha Li",
     text: "Manage has supercharged our team's workflow. The ability to maintain visibility on larger milestones at all times keeps everyone motivated.",
-    img: "/assets/avatar-anisha.png",
+    img: "/public/assets/avatar-anisha.png",
   },
   {
     id: 2,
     name: "Ali Bravo",
     text: "We have been able to cancel so many other subscribtions since using Mange. There is no more cross-channel confusion and everyone is much more focused.",
-    img: "/assets/avatar-ali.png",
+    img: "/public/assets/avatar-ali.png",
   },
   {
     id: 3,
     name: "Richard Watts",
     text: "Manage allows us to provide structure and process. It keeps us organised and focused. i can't stop recommending them to everyone I talk to.",
-    img: "/assets/avatar-richard.png",
+    img: "/public/assets/avatar-richard.png",
   },
   {
     id: 4,
     name: "Shanai Gough",
     text: "Their software allows us to track, manage and collaborate on our projects from anywhere. it keeps the whole team in-sync without being intrusive.",
-    img: "/assets/avatar-shanai.png",
+    img: "/public/assets/avatar-shanai.png",
   },
 ];
 
